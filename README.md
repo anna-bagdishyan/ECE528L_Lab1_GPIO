@@ -22,7 +22,22 @@ Brief description of the lab
 | PMOD SWT  | 1 | Digilent
 
 ## Analysis and Results
-Provide results that you obtained in the lab. You can include screenshots, waveforms, diagrams, code output, etc.
+### Task 1
+![c1_button1](https://github.com/anna-bagdishyan/ECE528L_Lab1_GPIO/blob/main/Screenshots/BTN1.jpeg)
+Figure 1 - Output when pressing button 1
+![c2_button2](https://github.com/anna-bagdishyan/ECE528L_Lab1_GPIO/blob/main/Screenshots/BTN2.jpeg)
+Figure 2 - Output when pressing button 2  
+
+[Video Demonstration for Pressing Buttons 1 and 2](https://drive.google.com/file/d/1JRtJ3LKuMM4ayPIyrd5ffgvNEReiE5cq/view)
+### Task 2
+[Video Demonstration for the Binary Down Counter](https://drive.google.com/file/d/1CkEUqCtcdnmVcqPl6F0NkIXCTbB5D32w/view?usp=sharing)
+### Task 3
+[Video Demonstration for the Ring Counter](https://drive.google.com/file/d/1caqgdpvGL_xEXrpimUR5ggYx_9dB8d1F/view?usp=sharing)
+### Task 4
+[Video Demonstration for the Reverse Ring Counter](https://drive.google.com/file/d/1QtAzT2lojmVvRV9_Qudliniqvj-1X7c_/view?usp=sharing)
+### Task 5
+[Video Demonstration for the Johnson Counter](https://drive.google.com/file/d/1jDJZvJWaLhZxqLTP-LBvwgomzrn5TJaC/view?usp=sharing)
+
 
 ## Known Issues or Limitations  
 For Task 1, LED1 and the RGB LED were initially checked separately, which caused different starting states when pressing button two while button one was already held. The solution was to use LED1's current state to decide what both LEDs should do, which resulted in both LEDs toggling at the same time instead of relying on their previous states separately. The solution now works as intended, with all cases working correctly.  
