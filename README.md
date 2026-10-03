@@ -11,7 +11,7 @@ The GPIO lab interfaces with the following:
 * PMOD 8LD (8 LEDs) - [Product Link](https://digilent.com/shop/pmod-8ld-eight-high-brightness-leds/)
 
 ## Overview
-Brief description of the lab
+This lab focuses on using the GPIO ports of the MSP432 LaunchPad to control LEDs and read inputs from buttons and switches. The lab uses the built-in buttons and LEDs on the MSP432 LaunchPad along with the PMOD SWT and PMOD 8LD modules. Different LED patterns are created based on the inputs from the buttons and switches, including binary counters, ring counters, and a Johnson counter. The lab also includes observing the GPIO registers and how they change when configuring the different pins.
 
 ## Components Used
 | Components Used | Quantity    | Manufacturer 
