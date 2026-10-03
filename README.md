@@ -44,8 +44,13 @@ For Task 1, LED1 and the RGB LED were initially checked separately, which caused
 
 For Task 3, initially the ring counter would only reach the second-to-last LED before restarting. This happened because led_count was shifted using `led_count >>= 1` before the if statement checked whether led_count was 0x01. Because of this, when led_count reached 0x01, it was shifted to 0x00 before the condition could detect it, so the counter restarted before displaying the final LED. To fix this, the shift operation was placed inside the else statement. This allows the program to check if led_count is 0x01 and reset it to 0x80. If it has not, the value is shifted to continue the sequence. The ring counter now displays the correct LED pattern.
 
-## Author Contribution
-Specify individual contributions to the lab. Optional if you’re working on your own. Bullet list is fine
+## Author Contribution  
+Anna  
+- Wrote "Known Issues or Limitations" and "Analysis and Results" on GitHub
+- Tasks 3, 4, and 5
 
+Mario  
+- Wrote "Overview" on GitHub
+- Tasks 1 and 2
 ## References
 ECE 528/L Lab 0 - General Purpose Input Output (GPIO).
